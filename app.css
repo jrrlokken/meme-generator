@@ -1,0 +1,116 @@
+body {
+  background-color: rgba(0,0,0,0.8);
+  color: rgba(255,255,255,0.8);
+  font-family: 'Ubuntu';
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: .5rem 0;
+}
+
+input {
+  width: 50%;
+  height: 20px;
+  border: 2px solid #c0de7c;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin: .5rem 0 2rem;
+}
+
+button {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 30px;
+  padding: 15px 30px;
+  background-color: yellowgreen;
+  color: black;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header {
+  padding-bottom: 20px;
+
+}
+.heading {
+  font-size: 4rem;
+  color: yellowgreen;
+  text-align: center;
+  margin-bottom: 0;
+  text-shadow: 0 0 32px #ebf4d3;
+}
+
+.subheading {
+  letter-spacing: 2px;
+}
+
+.form-container {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.meme-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.meme-div {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  background-color: orange;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.meme-overlay {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  opacity: 0;
+}
+
+.meme-div:hover .meme-overlay {
+  opacity: 0.7;
+  text-align: center;
+  color: rgba(255,255,255,0.7);
+  font-size: 2rem;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.meme-text {
+  font-family: 'Impact';
+  color: white;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  right: 0;
+}
+
+.top-text,
+.bottom-text {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.bottom-text {
+  margin-top: 300px;
+}
